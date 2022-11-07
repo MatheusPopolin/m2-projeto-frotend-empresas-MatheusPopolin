@@ -1,0 +1,22 @@
+body{
+    max-height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 122px;
+}
+main .right{
+    overflow-y: scroll;
+    height: 743px;
+    width: 50%;
+    background-color: var(--grey800);    
+}
+ul{    
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    padding: 1.625rem 2rem;
+    gap: 1.625rem;
+}

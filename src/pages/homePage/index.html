@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/assets/elipse.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/styles/global.css">
+    <link rel="stylesheet" href="/src/styles/colors.css">
+    <link rel="stylesheet" href="/src/styles/fonts.css">
+    <link rel="stylesheet" href="/src/styles/buttons.css">
+    <link rel="stylesheet" href="/src/styles/select.css">
+    <link rel="stylesheet" href="/src/styles/cards.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Kenzie Empresas</title>
+</head>
+<body>  
+    <header class="header">
+        <div class="container">
+            <div class="left">
+                <img src="/src/assets/elipse.png" alt="">
+                <h1 class="font-6">Kenzie Empresas</h1>
+            </div>
+            <div class="right">
+                <a class="button-white font-8-bold" href="/src/pages/login/index.html">Login</a>
+                <a class="button-brand font-8-bold" href="/src/pages/register/index.html">Cadastro</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="left">
+            <img src="/src/assets/backgroundDesktopHome.png" alt="Kenzie Empresas">
+        </section>
+        <section class="right">
+            <select class="select-companies font-7" name="sectors" id="sectors">
+                <option>Selecionar setor</option>
+            </select>
+            <ul id="companies">
+                <li></li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>

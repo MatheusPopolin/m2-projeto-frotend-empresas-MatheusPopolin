@@ -1,0 +1,40 @@
+.company-card{
+    background-color: var(--grey900);
+    border-bottom: 1px solid var(--brand100);
+    padding: 0.75rem 1.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+.departament-card{
+    width: 45%;
+    background-color: var(--grey900);
+    border-bottom: 1px solid var(--brand100);
+    padding: 1.125rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.departament-card > div{
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.user-card{
+    width: 45%;
+    background-color: var(--grey900);
+    border-bottom: 1px solid var(--brand100);
+    padding: 1.125rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.user-card > div{
+    display: flex;
+    gap: 1.25rem;
+    justify-content: center;
+    margin-top: 1rem;
+}

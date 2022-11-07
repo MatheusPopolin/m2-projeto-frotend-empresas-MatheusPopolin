@@ -1,0 +1,34 @@
+.select-companies{
+    width: 100%;
+    height: 52px;
+    background-color: var(--brand100);
+    color: var(--grey900);
+    border: none;
+    text-align: center;
+}
+.select-companies:focus{
+    border: none;
+}
+
+.select-default{
+    width: 100%;
+    height: 52px;
+    padding: 1rem; 
+    background: var(--grey900);
+    color: var(--grey000);
+    opacity: 0.5;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.select-default:focus{
+    border: none;
+}
+
+.select-companies-small{
+    border: 1px solid var(--grey000);
+    border-radius: 15px;
+    text-align: center;
+    padding: 0 2rem;
+}
+.select-companies-small:focus{
+    border: 1px solid var(--grey000);
+}

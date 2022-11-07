@@ -1,0 +1,86 @@
+.button-white{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0.625rem 0;
+    min-width: 8.875rem;
+    border: 1px solid var(--brand100);
+    background-color: var(--grey900);
+    color: var(--brand100);
+    cursor: pointer;
+}
+
+.button-brand{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0.625rem 0;
+    min-width: 8.875rem;
+    background-color: var(--brand100);
+    color: var(--grey900);
+    border: none;
+    cursor: pointer;
+}
+
+.button-sucess{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0.625rem 0;
+    min-width: 8.875rem;
+    background-color: var(--sucess100);
+    color: var(--grey900);
+    cursor: pointer;
+}
+
+.button-alert{
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0.625rem 0;
+    min-width: 8.875rem;
+    border: 1px solid var(--alert100);
+    background-color: var(--grey900);
+    color: var(--alert100);
+    cursor: pointer;
+}
+
+.button-edit{
+    width: 1.625rem;
+    height: 1.625rem;
+    background-image: url(/src/assets/pencil.png);
+    background-size: 100%;    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.button-edit:hover{
+    background-image: url(/src/assets/bluePencil.png);
+}
+
+.button-close{
+    position: absolute;
+    width: 1.625rem;
+    height: 1.625rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-view{
+    width: 1.625rem;
+    height: 1.625rem;
+    background-image: url(/src/assets/blueEye.png);
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button-delete{
+    width: 1.625rem;
+    height: 1.625rem;
+    background-image: url(/src/assets/trash.png);
+    background-size: 100%;    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
